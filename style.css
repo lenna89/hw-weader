@@ -1,0 +1,46 @@
+body {
+  background: linear-gradien(to top, green, greenyellow, yellowgreen, yellow);
+
+  font-family: "New Tegomin", serif;
+  display: block;
+  margin: 30px auto;
+}
+
+.icon-cclaud {
+  font-size: 100px;
+  color: grey;
+  margin: auto;
+  width: 30px;
+}
+
+.icon-cs {
+  font-size: 35px;
+  color: yellow;
+}
+.icon-sr {
+  font-size: 35px;
+  color: aqua;
+}
+
+.icon-cr {
+  font-size: 35px;
+  color: blueviolet;
+}
+
+.icon-claud {
+  font-size: 35px;
+  color: blue;
+}
+.icon-csr {
+  font-size: 35px;
+  color: greenyellow;
+}
+.card-body {
+  font-size: 23px;
+  text-shadow: 5px 5px 10px rgba(16, 234, 245, 0.4);
+  color: #10eaf5;
+
+  background: (to top, green 20%, greenyellow 20%, yellowgreen 20%, yellow 20%);
+
+  height: 400px;
+}
