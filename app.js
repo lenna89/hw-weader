@@ -65,6 +65,32 @@ function convertToFahrenheit(event) {
   temperatureElement.innerHTML = 66;
 }
 
+function displayTempariture(response){
+let temparitureElement=document.querySelector("#Tempariture");
+let cityelement=document.querySelector("#city");
+let discriptionElement=document.querySelector("#description");
+let humidityElement=document.querySelector("#humidity");
+
+let windElement=document.querySelector("#wind");
+let dateElement=document.querySelector("#date");
+let iconElement=document.querySelector("#icon");
+
+celsiusTempariture=response.data.main.temp;
+temparitureElement.innerHTML=Math.round(celsiusTempariture);
+cityelement.innerHTML=response.data.name;
+descriptionElement.innerHTML=response.data.weather[0].description;
+humidityElement.innerHTML=response.data.main.humidity;
+windElement.innerHTML=Math.round(response.data.wind,speed);
+dataElement.innerHTML=formatDate(response.data.dt*1000);
+iconElement.setAttribute("src",)
+
+}
+   
+
+
+
+
+
 function convertToCelsius(event) {
   event.preventDefault();
   let temperatureElement = document.querySelector("#temperature");
