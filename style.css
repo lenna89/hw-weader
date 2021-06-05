@@ -1,55 +1,28 @@
 body {
-  background: linear-gradien(to top, green, greenyellow, yellowgreen, yellow);
+background: rgb(184, 184, 211);
+ 
+color: #10eaf5;
 
   font-family: "New Tegomin", serif;
   display: block;
-  margin: 30px auto;
+  margin: 45px auto;}
+
+h1{color: #10eaf5;
+ 
+
 }
+.units{
+font-size: large;
 
-.icon-cclaud {
-  font-size: 100px;
-  color: grey;
-  margin: auto;
-  width: 30px;
+color: #10eaf5;
 }
-
-.icon-cs {
-  font-size: 35px;
-  color: yellow;
-}
-.icon-sr {
-  font-size: 35px;
-  color: aqua;
-}
-
-.icon-cr {
-  font-size: 35px;
-  color: blueviolet;
-}
-
-.icon-claud {
-  font-size: 35px;
-  color: blue;
-}
-.icon-csr {
-  font-size: 35px;
-  color: greenyellow;
-}
-.card-body {
-  font-size: 23px;
-  text-shadow: 5px 5px 10px rgba(16, 234, 245, 0.4);
-  color: #10eaf5;
-
-  background: (to top, green 20%, greenyellow 20%, yellowgreen 20%, yellow 20%);
-
-  height: 400px;
-}
-
-weather-forecast{
-
-margin-top: 30px ;
-text-align: strong center;}
-
-
+.container{
+font-family: "New Tegomin", serif;
+font-size:20px ;
+border: rgba(51, 255, 0, 0.836) dotted;
+border-radius: 4px;
+padding: 60px 50px 60px 50px;
+color:#10eaf5;
+background: rgb(10, 170, 233);}
 
 
