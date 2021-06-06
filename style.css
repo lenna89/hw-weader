@@ -1,5 +1,7 @@
 body {
-background: rgb(184, 184, 211);
+background-image:"https://www.pexels.com/photo/orange-mason-jar-in-body-of-water-462030/";
+
+
  
 color: #10eaf5;
 
@@ -8,21 +10,21 @@ color: #10eaf5;
   margin: 45px auto;}
 
 h1{color: #10eaf5;
- 
+
 
 }
 .units{
-font-size: large;
+font-size: 20;
 
-color: #10eaf5;
+;
 }
 .container{
+padding-inline-end: 4px green;
 font-family: "New Tegomin", serif;
 font-size:20px ;
 border: rgba(51, 255, 0, 0.836) dotted;
 border-radius: 4px;
 padding: 60px 50px 60px 50px;
-color:#10eaf5;
-background: rgb(10, 170, 233);}
-
+color:#572ca8;
+background: linear-gradient(rgb(255, 217, 0), greenyellow, yellowgreen, yellow)}
 
