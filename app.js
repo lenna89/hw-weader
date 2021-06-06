@@ -100,7 +100,7 @@ function displayTemperature(response) {
   getForecast(response.data.coord);
 }
 
-function search(city) {
+function search(city ) {
   let apiKey = "4c46224474a361c6e85b574b5dbdce72";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
   axios.get(apiUrl).then(displayTemperature);
@@ -141,4 +141,11 @@ fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
 
+let currentLocationButton = document.querySelector("#current-location-butto");
+
 search("Ljubljana");
+
+
+
+
+
